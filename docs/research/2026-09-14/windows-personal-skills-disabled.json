@@ -1,0 +1,1385 @@
+{
+  "date": "2026-09-14",
+  "config": "C:\\Users\\Justin\\.codex\\config.toml",
+  "backup": "C:\\Users\\Justin\\.codex\\backups\\config-personal-skills-disable-2026-09-14.toml",
+  "original_sha256": "7970153c89e33501a54b58379fd901855a81fee98629adeec23a8d3c3efebc85",
+  "changed_sha256": "cfc96dc3834641ebf115157d41b0d40faceae4414e8aaaaf9a3ef297a084d0c3",
+  "original_use_memories": true,
+  "use_memories": false,
+  "generate_memories": true,
+  "original_skill_overrides": [],
+  "excluded": [
+    ".system",
+    "plugin/cache packages",
+    "project-local skills",
+    "Ubuntu installations"
+  ],
+  "absent_root": "C:\\Users\\Justin\\.agents\\skills",
+  "packages": [
+    {
+      "name": "architect",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\architect\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "cc9745d5e94206194866c8cc1fc1c597103364c2f9bd94d0a368dc180cacdd2e"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/design-red-flags.md": {
+          "sha256": "905066f9bbac81c573c2b325be47751d2c0f9325e0a0772bd4384e82dafe9336"
+        },
+        "references/rationale-template.md": {
+          "sha256": "0cedfccdc7b47fc881febd5a8293eecbc542c20f8df825639904a8102d2eb5d3"
+        },
+        "references/runner-prompt.md": {
+          "sha256": "983bf2820cc14ed8ecab6e448e1033e5cfe6031967d0a9287b48c7fa9c33d925"
+        }
+      }
+    },
+    {
+      "name": "arena",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\arena\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "932b6a93c618566cc22e6ddd6b63f8779fc05dc0c5c2c30e2cf92758d6252d9f"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "ask-matt",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\ask-matt\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "PHASE-BOUNDARIES.md": {
+          "sha256": "a8aa20158609ef39e2b308b6ba0660c91066838d07a867202e63a7744a88a3ed"
+        },
+        "SKILL.md": {
+          "sha256": "b25d86fb36b1d294eeead5d7db529f86135f9671f2afcd607579a63bb2213769"
+        },
+        "agents/openai.yaml": {
+          "sha256": "bdffbc5a0a99ed1b6ef3253d251d755fd18162b9845972e380007f844b09b05c"
+        }
+      }
+    },
+    {
+      "name": "automate-me",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\automate-me\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "c14dcd4e40ea6558f669d2d3376913888005c0186aca2ad0c462c614aadf30cd"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "blast-radius",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\blast-radius\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "39694b60c84d2cf01917148417e2d114e3b1db58fd2a7ba59191cfe631e275a3"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "bro",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\bro\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "df34ee5408922310555299849956bcd0c6ce8da173088f5d1fc262e9e39577ab"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "code-review",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\code-review\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "47f4e52c21694def9c7c11cbfbf891ca35eac7a93e395797515be3c8a409ae50"
+        },
+        "agents/openai.yaml": {
+          "sha256": "8229ca854e11dc8e6aef2131ee03f31fb1561cf905fab9ccc325180cf3331352"
+        }
+      }
+    },
+    {
+      "name": "codebase-design",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\codebase-design\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "DEEPENING.md": {
+          "sha256": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1"
+        },
+        "DESIGN-IT-TWICE.md": {
+          "sha256": "8e740bf98446dbd4dfdc132ac4346d9a7eedaf93de6a495889171cf7f99f16bd"
+        },
+        "SKILL.md": {
+          "sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
+        },
+        "agents/openai.yaml": {
+          "sha256": "edebc9e4fcfe102114012575eaa9600b9b5fd08c311664f389c36e7bc717740f"
+        }
+      }
+    },
+    {
+      "name": "create-verification-skill",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\create-verification-skill\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "248f61c83fc1b22a2f31c83b002e1f3023cc3cf6e9c22389c4e293404d94221d"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/feature-map-example/create-note.md": {
+          "sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7"
+        },
+        "references/feature-map-example/README.md": {
+          "sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba"
+        },
+        "references/feature-map-example/search.md": {
+          "sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823"
+        }
+      }
+    },
+    {
+      "name": "diagnosing-bugs",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\diagnosing-bugs\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "77f3cf31bc99b2f49af943222526531fcc9fc41d047626d3640e875e85af3e84"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3e430dbe4334a87597488c060cb3dc3786bb00c9182877d6f5ec41f62490e90b"
+        },
+        "scripts/hitl-loop.template.sh": {
+          "sha256": "35103539fc36873eea36074769ad454f9379d6fc8b2dc0e26ce987fd3bfe5503"
+        }
+      }
+    },
+    {
+      "name": "domain-modeling",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\domain-modeling\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "ADR-FORMAT.md": {
+          "sha256": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0"
+        },
+        "CONTEXT-FORMAT.md": {
+          "sha256": "17ab16ce783e4d2801ee52fd9acdf550cbf44de65ae76797a93943bbedf22a13"
+        },
+        "SKILL.md": {
+          "sha256": "327a2b50620e2fd70abc6893cd6965e76b20f8d0adb0dc2c8d5eb3845efb643e"
+        },
+        "agents/openai.yaml": {
+          "sha256": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b"
+        }
+      }
+    },
+    {
+      "name": "figure-it-out",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\figure-it-out\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "645dcde3477cf29d41f7e5522c12042374ef80d9a6b08375bc6f19fe110cfb4b"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "grill-me",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\grill-me\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637"
+        },
+        "agents/openai.yaml": {
+          "sha256": "c061e39c3e0f9d865fb1b97556d485704af2a8a58f4b8221a8917a5c2074a32b"
+        }
+      }
+    },
+    {
+      "name": "grill-with-docs",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\grill-with-docs\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "7de372c13488f1ee96cc11cd8907b56b6809cc93eef776eeddd37de6b6cbe3fe"
+        },
+        "agents/openai.yaml": {
+          "sha256": "94cd0ab161fb468a836349f5ed482ba58ce8e709a05c57ce533d739dbd35cca9"
+        }
+      }
+    },
+    {
+      "name": "grilling",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\grilling\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "10ff989e7498b23b5acb49d5048f11dcd906757d2f79c5cdf8a00001381296f2"
+        },
+        "agents/openai.yaml": {
+          "sha256": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b"
+        }
+      }
+    },
+    {
+      "name": "handoff",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\handoff\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "7c62de979fdc7ac32fb5ddb2146156c917f80ee070d30fadc9d40343c4b6ed25"
+        },
+        "agents/openai.yaml": {
+          "sha256": "5c479fd562c691851690e8b18c8501045bef0943c10743d636b2fae26add1d28"
+        }
+      }
+    },
+    {
+      "name": "how",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\how\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "336468841310819ab85bc68bdd524cdb4d507badcdc15efe46abefdd7fb147bd"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/explainer-prompt.md": {
+          "sha256": "ddb89cebefc24e2b54517a331aedfe045b6971e101f45c71b8cef4cccff45bff"
+        },
+        "references/explorer-prompt.md": {
+          "sha256": "3a6965276d23be7d8da6c305bfd5d7bf29d2aef09e5dae4119463ac72022a02d"
+        }
+      }
+    },
+    {
+      "name": "implement",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\implement\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "6d3fd9e83b8f36e5213854779db49b256a457a7ebb4a503e53fa7dcff696adc3"
+        },
+        "agents/openai.yaml": {
+          "sha256": "8970a8596ade0c28ab427f41a4ea242d6bdf6186c59ebf55e1238dbecaab79dc"
+        }
+      }
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\improve-codebase-architecture\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "HTML-REPORT.md": {
+          "sha256": "581e8bb5a521e46bbda8ca7e19b15948bed882187108092ebb90c62513b77528"
+        },
+        "SKILL.md": {
+          "sha256": "d1ac25511a936ff4250a48dbcefda363837d6bb9321b3cba73df99fa37270a75"
+        },
+        "agents/openai.yaml": {
+          "sha256": "c8cb20f68ebf0edb4e497bc11ae5fcaa196004e661cd189015b04f4109ced7f1"
+        }
+      }
+    },
+    {
+      "name": "interrogate",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\interrogate\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "ba79e9a558eba2fd46b394c82d5b3141c55633dd80443f971c8b77426e2497a1"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/code-quality-review.md": {
+          "sha256": "623d3d8122d075c303b562783b471a732992e84166b318f85ab6d6c118b13304"
+        },
+        "references/lead-judgment.md": {
+          "sha256": "6e5bdf5670eb34017692e9b6c546f36ac7552e6bb9f3f2f3429164fcc46a9361"
+        },
+        "references/reviewer-prompt.md": {
+          "sha256": "a397cc61102add709803d917fb23d726920525bf23e7c06dc4ed0b5cbeb00e54"
+        },
+        "references/rubric.md": {
+          "sha256": "59e9b7cc4556e735e1b859a7dd1f7637b013a2426a84825ac1c51979942c158a"
+        }
+      }
+    },
+    {
+      "name": "maintain-verification-skill",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\maintain-verification-skill\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "a75b2b8d68fd0c5473735e00b95dc51e9e649694a75800894d07a41833ccfb8e"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "make-bot-ui",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\make-bot-ui\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "b887375b8af2c581372ad4b06e008c38523addacf6c2c3af9271640f6211cb5f"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "no-comments",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\no-comments\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "f6437b1b4b2fbf6f0558096c0460b7032f0f684fc8bd412cb91170ae99be5eb6"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "obsidian-memory",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\obsidian-memory\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "530174f505fb9827eb2036fc5f7781feef517ecbfe4f381024cd4ac85dda51a1"
+        },
+        "agents/openai.yaml": {
+          "sha256": "b3197bdadbaedea844f6d6721d3c3bc13bc057657c627838d18a6af2e521a675"
+        },
+        "references/schema.md": {
+          "sha256": "bf2c24c98d2ea0cf319be62f8df94f95a5178290d6ceab7e4ac42834541cb77f"
+        },
+        "scripts/closeout-hook.ps1": {
+          "sha256": "74288b705fc894cbf3b61ff6cd3a157d3d6fa2a9eeb7c41405b3de61b93aa993"
+        }
+      }
+    },
+    {
+      "name": "poteto-mode",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\poteto-mode\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "14fc78c079dfb09842304d963ad01fc89739590a1923e61372317b4d83895035"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "playbooks/authoring-a-skill.md": {
+          "sha256": "f6a13a445c360b48d6cd72780ac01955f45b82826476efe0e67c7559329407aa"
+        },
+        "playbooks/autonomous-run.md": {
+          "sha256": "15e54ad3ac92565613980772d8708de6e19cc4690bfd4bb3fb8836522407377b"
+        },
+        "playbooks/autopilot-full.md": {
+          "sha256": "52f69170bd7fa6b436992d90d3ef7fba893201e0b497297b416e9aea0e567d5f"
+        },
+        "playbooks/autopilot-stack.md": {
+          "sha256": "66364cd3a2286cbecfb73d3a7bf7d1fa387ede8525d37ef22b69d4ac03c2c5b2"
+        },
+        "playbooks/babysit.md": {
+          "sha256": "51be21872152f97612d37258273269b88212b6696432d25d678cac30f02f4157"
+        },
+        "playbooks/bug-fix.md": {
+          "sha256": "e958c67d5454fc12d76ec645b50dfd85c423082aac13a49e2913ef2815948216"
+        },
+        "playbooks/eval.md": {
+          "sha256": "b862bfa2fae2399abf047a8e80d3e3dddb64003af96fb1cebb625216131e36bb"
+        },
+        "playbooks/feature.md": {
+          "sha256": "430dae0fd736554ff7dffc3ef0644c9f0c845e25742f69e598c35b9b89660301"
+        },
+        "playbooks/hillclimb.md": {
+          "sha256": "bc1fc4052c1ee918a56115a219cbcbbc4c147fa1a8080e77c7d58068eecac299"
+        },
+        "playbooks/investigation.md": {
+          "sha256": "dc66bcf6af3a074fc7f67aa5e12b93ef571a4fb4d8e17f2f1af5ae5359f42e46"
+        },
+        "playbooks/multi-phase-plan.md": {
+          "sha256": "63426a55519fbc4fb9f00baf5cc7b1148f70dfb62ad360a0f6533d287dd36edf"
+        },
+        "playbooks/opening-a-pr.md": {
+          "sha256": "b173ff9638ff62f91f6813c1a0ed3417cdf9f6545a659be0c1fb1f42130e0e66"
+        },
+        "playbooks/orchestrate.md": {
+          "sha256": "d42b4375f1bd4ce23da0b575a198571a2117df7eea10c3c9fc6d92ae1053f7be"
+        },
+        "playbooks/pause-safely.md": {
+          "sha256": "7d5fc10e144265f1b35f8157926541e738c1de64b6a85b3e61b51cf268c3dffd"
+        },
+        "playbooks/perf-issue.md": {
+          "sha256": "b2ee9aed1466583361cb61b4e8d79ebb3b61f7f9f6540be7633852afacab1d89"
+        },
+        "playbooks/prototype.md": {
+          "sha256": "7aa1f52c691c3d46d5afc527b23f90977fce869ce33573c73c81a4c7f0cde962"
+        },
+        "playbooks/refactoring.md": {
+          "sha256": "53bac1f1fe886600dd1991b5511b7975e6a206168038f9d282d88e45408e93cf"
+        },
+        "playbooks/runtime-forensics.md": {
+          "sha256": "594f02c40c243a346e1f57b688ecf2ed5e882f21b3d24ed2204d1ac6f1c24a8a"
+        },
+        "playbooks/session-pickup.md": {
+          "sha256": "1604fb463f7c7410d43fa024ca76c1c1824c166a01fd69d61f073d06fdca2a47"
+        },
+        "playbooks/shipping.md": {
+          "sha256": "c301902136e0a9a0a55403c35374f6f5738e501aee66c27458dc197b87557550"
+        },
+        "playbooks/trace-forensics.md": {
+          "sha256": "137ce3984fb96e45971fdff4d3c79fa4ccc647c5b30ae4945783b9fb23f8cec7"
+        },
+        "playbooks/visual-parity.md": {
+          "sha256": "950ca51999a6454c98eee6bcbc3d1bbe501a4e3a5d5439b6f6ddc378991b256c"
+        },
+        "playbooks/worktree-cleanup.md": {
+          "sha256": "fc464dc4121926df1704f483c5feca83717c0a40b4651d3e11bd3aedd89441b6"
+        },
+        "references/bugbot-triage.md": {
+          "sha256": "b2d146c770d8d3593e1ef3d77b668039b8e1f78093ea1a86f1d45d7f99614309"
+        },
+        "scripts/bootstrap.ts": {
+          "sha256": "ccd2ed08fd9da9d0d942e5f2491cfc74bb92d8a08fa51755e0da1ac8de287361"
+        },
+        "scripts/bun.lock": {
+          "sha256": "667d9cf7222e9aae3fa42a4be383e657784216e9df115da02227fbc5ac7bbe46"
+        },
+        "scripts/check-plan.mjs": {
+          "sha256": "4f5118edf719b481983dc87dfadd5b4b5473d05aad04a7ba65191ff9c73faf1b"
+        },
+        "scripts/package.json": {
+          "sha256": "d1f815091209d49763775cc188e8e06ff32d5fec648bffd2272bc25a165e87c3"
+        },
+        "scripts/worktree-audit.sh": {
+          "sha256": "95b8530f3c0ccada8cabc4b0727c052fbc85c141531375aaace65c427af8aecc"
+        },
+        "scripts/orch/orch.test.ts": {
+          "sha256": "174b86d21ff51ccd28d1a8c938cb2e0c6fa287b209d4ca6c03932fcb1b53372e"
+        },
+        "scripts/orch/orch.ts": {
+          "sha256": "f091687df627a0b75fabd54af58945a9cd6c7039ef0622012ac9ed60cd8ec434"
+        },
+        "scripts/orch/store.ts": {
+          "sha256": "0eae7cf69282e827b1227166f2e32cee3560f2f3e65b3f1f2faf6fb83d3b4c5b"
+        },
+        "scripts/watch-pr/cli.test.ts": {
+          "sha256": "a35592b4c6da96caf8d47987e9cd503fab6c7774ab87d11a43f24b4b5df2a9d1"
+        },
+        "scripts/watch-pr/cli.ts": {
+          "sha256": "89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680"
+        },
+        "scripts/watch-pr/fakes.test-helper.ts": {
+          "sha256": "e53e31b7f03068063f53a99a3591b052aaed66e4e2b196b3a364980f60324ab1"
+        },
+        "scripts/watch-pr/github.test.ts": {
+          "sha256": "0cbce011050522938523e36bb42a260e92b812dcd2076930fa681672ad316b24"
+        },
+        "scripts/watch-pr/github.ts": {
+          "sha256": "d1bbbafbe8e2c703c84da2029de7f2c4011412512f8cf65a42100f46bcb92c8a"
+        },
+        "scripts/watch-pr/policy.test.ts": {
+          "sha256": "a9fedb25feefd1f57ef6a662f80c99018690170a3a8070773a08eaf694d1d3d9"
+        },
+        "scripts/watch-pr/policy.ts": {
+          "sha256": "68d240505852cf23c9b2dea463342e9e61243f486b3cc86c735d140f9ee7be49"
+        },
+        "scripts/watch-pr/render.ts": {
+          "sha256": "2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604"
+        },
+        "scripts/watch-pr/tsconfig.json": {
+          "sha256": "1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45"
+        },
+        "scripts/watch-pr/types.compile.ts": {
+          "sha256": "621af4c9a664fbf699a9737efccdc248abb416df8819c9dc5f824beae2b9b1d6"
+        },
+        "scripts/watch-pr/types.ts": {
+          "sha256": "64ba6221e3bfe61bbb292337d199cdec6309455477280efb060203dba34e0e91"
+        },
+        "scripts/watch-pr/watch-pr": {
+          "sha256": "d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4"
+        }
+      }
+    },
+    {
+      "name": "principle-attack-the-premise",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-attack-the-premise\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "0b8243c37718bb797e240df97154a890ce40a14e4dc3cc1966aa4443b38e9df2"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-boundary-discipline",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-boundary-discipline\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "af1fc005677867f1051ae2a114286b89e60a816587a279aa33f527a6ec51163d"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-build-the-lever",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-build-the-lever\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "8e5343c66c89cc5306eed9513e2be67f13fc537de7be5ed5cf36ac80731e72c6"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-encode-lessons-in-structure",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-encode-lessons-in-structure\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "52f82455cfbf502d6dad14a2ab82c3841c2cce65a24137a1efc90400556753b9"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-exhaust-the-design-space",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-exhaust-the-design-space\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "147411cea68ad43128d50061b9cdd8fcdf471ee65f08506f114db616570330d2"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-experience-first",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-experience-first\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "20b8dd09cd5f53e8fa6558951d621be5ac399b9004f033029e656d38569fdef8"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-fix-root-causes",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-fix-root-causes\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "d599f0f131d42b6d88b392b556d845f91df1635b633e3e01c23ac75bfaa5e08b"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-foundational-thinking",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-foundational-thinking\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "183c254eef85c16a2c3e019f21fbb73c35184baf6b614de06249343f2e664fc9"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-guard-the-context-window",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-guard-the-context-window\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "6873d580366c5d00971e2129d405d3cc4520d43758cbcadae29d80d2cdbb2512"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-laziness-protocol",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-laziness-protocol\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "a95c836d49ae29aa48bc460645850d9fa49fae893095aa98cb507fa8c8700951"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-make-operations-idempotent",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-make-operations-idempotent\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "de4f3151209f0da1f945020b157bd38a8143616e678baf3ef85f0038a54f4ad7"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-migrate-callers-then-delete-legacy-apis",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-migrate-callers-then-delete-legacy-apis\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "42a1dd3e10a84f7d70d636c8aeaddd9612fbafa5e6982340ad1bd755cf22c1c6"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-minimize-reader-load",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-minimize-reader-load\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "bd30c45381fa9eeac0ef647a953d5e547b7c9b00abc393bf016b5fb9b911f751"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-model-the-domain",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-model-the-domain\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "81acd1947c1383129cb8ea88779bc21351fe291fb38ca140b82d0e824a95d04a"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-never-block-on-the-human",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-never-block-on-the-human\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "97f3a826148dc4308364906b2439888efde9242b216473cc33e5d24bdf7a3992"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-outcome-oriented-execution",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-outcome-oriented-execution\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "fee19640f4899cbd8a4decdcfac3a806e659eb09e9d77c74153c9ed94c99b441"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-prove-it-works",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-prove-it-works\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "738ab4ab3748ec86cfe25998a0f6b4b8334fd78914872f08786e5b06852f8c99"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-redesign-from-first-principles",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-redesign-from-first-principles\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "80f80ab65d9974eb3356927b4673770e69a33d77413d9027c50535735c83e59b"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-separate-before-serializing-shared-state",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-separate-before-serializing-shared-state\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "c820a53df6c6e4afc93e8eb0894a4ee4d45959756f56c2e112b9a1d7ffd025f0"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-sequence-verifiable-units",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-sequence-verifiable-units\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "5bb80e553df00b46826fffb94ed72510e178a30bc174c94c85c7e44b201fcc7e"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-subtract-before-you-add",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-subtract-before-you-add\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "700820a38bf53227b1f2aed1cae0057e833c3d4a166b45764831faa982a82ad2"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-test-behavior-not-implementation",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-test-behavior-not-implementation\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "345dae104e7772d7af06abc37a63a42ffcd7668520c644bbda0539c92e7e951f"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "principle-type-system-discipline",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\principle-type-system-discipline\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "7b303222f0549e556909c0ae44dd70851be040fbe7fde5adf633bcb8ccefeda2"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "priority-brief",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\priority-brief\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "57cb7140972ecba4014f1729a2560301fffc8fee240856c88ab8ac50a91d50a7"
+        },
+        "agents/openai.yaml": {
+          "sha256": "827de64d7030aad0700bfe154086818c715a2531621b079090dca0213e749b2a"
+        }
+      }
+    },
+    {
+      "name": "prototype",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\prototype\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "LOGIC.md": {
+          "sha256": "f61c7d249e786a79ef289018901c348271e1798dd0b0bc5607b5c6f4d4a01ab9"
+        },
+        "SKILL.md": {
+          "sha256": "714de632d116bb73f65cdb5a882db15b9369a6713b9a47c0fad827848f0bfbe3"
+        },
+        "UI.md": {
+          "sha256": "723211e878acbc7b6ff09755263f3295cde724ba902ff0064da41eed51d45ad3"
+        },
+        "agents/openai.yaml": {
+          "sha256": "5af65e43ab41a350436697b81e27b7f848d36782043b73c322bb2c9fa9cc55dc"
+        }
+      }
+    },
+    {
+      "name": "pstack-tdd",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\pstack-tdd\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "3d9c10166bf188a6a3eb6668b93b86f380d68f7a31d6c8e1b2bb876522d19cd5"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "pstack-teach",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\pstack-teach\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "412702ecd19f8f65fdc07d75ba3bb79470aaca2a70f41be535c7fc52f3723a75"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "recall",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\recall\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "b87b050b28072620d7bedb15dd152ce7b087fd8ff9cb9fa56f7d9acc73fc42ab"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "reflect",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\reflect\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "bfb824d656fa8aaeeca6d4717bd97ebdea60a510dd73dfff2ead422c0ece7868"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/divergent-reviewer.md": {
+          "sha256": "7da0334ce282e6d8d7349c0cff14ffbd10a91a756c0b5c3ccc97291f57b8bed6"
+        },
+        "references/judgment-reviewer.md": {
+          "sha256": "917bb2ad21240a42b440aeb2a17766092e09f70d0982417b2f4caa6d74f27164"
+        },
+        "references/synthesizer.md": {
+          "sha256": "2f76c847eb45b182dc6fbcbf7d96c8ee7e2986ecfd9e0d640fec44e3cc5a617c"
+        },
+        "references/tooling-reviewer.md": {
+          "sha256": "8c74ebf7811801d634db7ab609b097d77ea00ab77bb4b258d69bd96e671cfa39"
+        }
+      }
+    },
+    {
+      "name": "research",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\research\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "985569f15739c713d6784887c3d186d4ef9ac85bec5ad9c068d25bf0739928e4"
+        },
+        "agents/openai.yaml": {
+          "sha256": "9b4c470d63221c1f68f22df70b83e2f12401b317babe0d1b7b5f24a974474d0d"
+        }
+      }
+    },
+    {
+      "name": "resolving-merge-conflicts",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\resolving-merge-conflicts\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "9d8114f8ef0b31f535a265fc05c364bd8cf2e2895a830040e06c22acb11f54b0"
+        },
+        "agents/openai.yaml": {
+          "sha256": "a1f4f96838f2ed6282eb28abbbf99029cb8fadce552baf53da90a025b8bffddf"
+        }
+      }
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\setup-matt-pocock-skills\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "domain.md": {
+          "sha256": "edc6d6131fdffc4b7135704f5262124fc43355c95f61b7399dc5a4db643e28ca"
+        },
+        "issue-tracker-github.md": {
+          "sha256": "afd6852a80185217bd28aa5cbe456bef1e85be25be7bd1fba382d5b8ee428325"
+        },
+        "issue-tracker-gitlab.md": {
+          "sha256": "ea175f73d193b3f55819c0ed9bbccf6ee0e70ad8f928e3d7607596c53380acd6"
+        },
+        "issue-tracker-local.md": {
+          "sha256": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e"
+        },
+        "SKILL.md": {
+          "sha256": "2bcd89e97777cdb705914424e39c97d5db524c8eb4eafac8120778a07774f0ec"
+        },
+        "triage-labels.md": {
+          "sha256": "4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d"
+        },
+        "agents/openai.yaml": {
+          "sha256": "9527de0110541c45712319025155aeab8dc7d77c6ed6e5e83271bab1851ab939"
+        }
+      }
+    },
+    {
+      "name": "setup-pstack",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\setup-pstack\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "de7f6d009f546db4db87cfda9f7908bae41ee9be83b92b457df08e9733a19d6e"
+        }
+      }
+    },
+    {
+      "name": "show-me-your-work",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\show-me-your-work\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "acc073c3d8edec50d2dc4c30aee46cbdf818d74015344eb227b7911e41824e72"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/decision-log-template.tsv": {
+          "sha256": "6779378006a2f5225e8c06deb84f1d913fb532041ebbb6e50d94600bfe3f4b76"
+        },
+        "scripts/log.sh": {
+          "sha256": "1601bc18f9aba0af3f5d6375e4f2d5dc6102334d1bca935026c0e3547cdadbbf"
+        }
+      }
+    },
+    {
+      "name": "swarm",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\swarm\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "a65f2bde4de3d4f407a6e35fb093719cb445a93a40ab0f033f12e61080453f3b"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "tdd",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\tdd\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "mocking.md": {
+          "sha256": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef"
+        },
+        "SKILL.md": {
+          "sha256": "cb01f66bebfaa25fa1f88e6b7e769cd9fd9f35b1120b8563749820738814c927"
+        },
+        "tests.md": {
+          "sha256": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a"
+        },
+        "agents/openai.yaml": {
+          "sha256": "ea6f01cf1b8c06a4b0f5b649d74b1b8ce8685e72af1b38d70d877693e092af0b"
+        }
+      }
+    },
+    {
+      "name": "teach",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\teach\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "GLOSSARY-FORMAT.md": {
+          "sha256": "9b99859ec28437668130d8f2ce5a342938970f8a1ed4fd38c3eab4f4b5fff210"
+        },
+        "LEARNING-RECORD-FORMAT.md": {
+          "sha256": "701fa34b6748aa89e6c960ffb815257f481a7d77fb2900f9028f7edf3fdd6052"
+        },
+        "MISSION-FORMAT.md": {
+          "sha256": "8cacbb3c0644d3ae0ea4965564797099401a6930a23f7cf462918576587f2418"
+        },
+        "RESOURCES-FORMAT.md": {
+          "sha256": "e9cacf34026e11a8d1c8f9de88abe5bcbf654f4ebdb25cae8c0de0d5f48f44ec"
+        },
+        "SKILL.md": {
+          "sha256": "a32df9dcdfc0c4fdc1c98e1ed3940c5f56b84c1aa90ff60346f32b8b53915b43"
+        },
+        "agents/openai.yaml": {
+          "sha256": "5856f3ae8aec742f1499c640aecdd5f1d6af5fa210a7c6ec794de8263a6f733f"
+        }
+      }
+    },
+    {
+      "name": "technical-writing",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\technical-writing\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "e0460f27326f4f92a5b64ac5029309cf9617f448e7e0a4d6a5fe9b915f87bbe3"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        }
+      }
+    },
+    {
+      "name": "to-questionnaire",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\to-questionnaire\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "b5eb929842ee0e93d867c5e906d183d350f2f2d149eaeaa86967d94d8eda1d3b"
+        },
+        "agents/openai.yaml": {
+          "sha256": "9e8a06c38c8842eea8d4922cb9d1ead8e3ace647bab259b943c994a1b4742bc2"
+        }
+      }
+    },
+    {
+      "name": "to-spec",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\to-spec\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "43ad9cf318e5e7d3d1fa360253a37021796dc87a0c2e595ad262661a10f85088"
+        },
+        "agents/openai.yaml": {
+          "sha256": "1c5b4d1e3d8e52287ef19cc2742fdbbfae1914ac75d33af3e4c8174f08cc55bb"
+        }
+      }
+    },
+    {
+      "name": "to-tickets",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\to-tickets\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "5c9fba69845c2519b9b35b9af42ae5142c21f8ca15ac2123dc2722002c8058ae"
+        },
+        "agents/openai.yaml": {
+          "sha256": "21bc6215fffcd7614e9f772bb1760e87cc5fc7dcc707e7d282bc9414267a6090"
+        }
+      }
+    },
+    {
+      "name": "transcribe",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\transcribe\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "LICENSE.txt": {
+          "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9"
+        },
+        "SKILL.md": {
+          "sha256": "f530021da9f377362ee4214e0bc689cbb5404640d2eb88ee272d51d61f530a09"
+        },
+        "agents/openai.yaml": {
+          "sha256": "fe7a20b9c03ce027e2f3023a4fd363c2d958ceeae1b7daaef77d1f6d055d97a4"
+        },
+        "assets/transcribe-small.svg": {
+          "sha256": "7d67890abf0f145a77f5fb87752bb6337b394fd4e26f5969c57d82d40e369a14"
+        },
+        "assets/transcribe.png": {
+          "sha256": "0860df58af6b9e58f4445a81baca7bfd94029a447742ae9b9e896e7c5b748688"
+        },
+        "references/api.md": {
+          "sha256": "a2bf7e59d69aa127b176255c5c01afbafda4e3029b12b4413e75074233ffb36d"
+        },
+        "scripts/transcribe_diarize.py": {
+          "sha256": "d623b1fed1491b7ca4b7b5b393089165e3581a83d90d5a57868241f1b2a5d951"
+        }
+      }
+    },
+    {
+      "name": "triage",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\triage\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "AGENT-BRIEF.md": {
+          "sha256": "7f5f87fed3033df1b06e083c480f3e847b1fbb0647746b8a4c6a50f9f26ef44f"
+        },
+        "OUT-OF-SCOPE.md": {
+          "sha256": "1fbf9b432130c6380aa65813b55553cfda150309b27c595e183f8e335b8a190d"
+        },
+        "SKILL.md": {
+          "sha256": "623a2ed692bdc77d2090e2a3dea3b627dd722ad3bbaca0be83aada75292c8fc4"
+        },
+        "agents/openai.yaml": {
+          "sha256": "2e683717720cf456d165d0bb1a68bb600d0b6a8ccb61841c172e50d26f95351c"
+        }
+      }
+    },
+    {
+      "name": "typescript-best-practices",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\typescript-best-practices\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "b831e277bf28570b04369103df50212e98930036904d97d018ef7c0553c0423a"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/patterns.md": {
+          "sha256": "62e9cd32d2fa066a35d0d1349aac22dce31a48ad7d5eaf142570770cfe707384"
+        }
+      }
+    },
+    {
+      "name": "unslop",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\unslop\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "e74639f4a5f6420a39ee7c1ce5a27bceee16778b4ec256ed115e2b226bffc007"
+        },
+        "agents/openai.yaml": {
+          "sha256": "5db958e46ad1135c16c9d6ab9c3e69af03c584481969c6846b2e32c84ee61bce"
+        }
+      }
+    },
+    {
+      "name": "wait-what",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\wait-what\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "e3f44e3ccbc0e7b62f20ba70b295fc9c9f4aa3f96c77168faee1c71bacbf4215"
+        },
+        "agents/openai.yaml": {
+          "sha256": "b41faadf741d51e4ea184148b2d1854d93f947aaf754c7844f70a00f04194999"
+        }
+      }
+    },
+    {
+      "name": "wayfinder",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\wayfinder\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "fee6e1d0c50f0e736b4ef8a599060c959afae904c9a97d82c97f049fcc3aa0f1"
+        },
+        "agents/openai.yaml": {
+          "sha256": "88bc81a11a6d52ac67aeaa76b8b619e387020d47c5133a4dd4927fd15c4ad073"
+        }
+      }
+    },
+    {
+      "name": "why",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\why\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "3442306db3e4dfcd76797c71c82c46a1a818874f7add7a3ad5d0c05212e496b3"
+        },
+        "agents/openai.yaml": {
+          "sha256": "3bf863a8856d04a6a1c4f23b3aae6cbf5388544129662c55cc733c2d9c23bbbf"
+        },
+        "references/epistemics.md": {
+          "sha256": "fcc0f559c072832c869a5ada72434b4849320a637ae63c09e8ee14f7ad787059"
+        },
+        "references/investigator-prompt.md": {
+          "sha256": "6892956a7ab0b5ee6c4babaf4f793703abe89b350ea7cb9463b4a56eea1c8266"
+        },
+        "references/source-playbook.md": {
+          "sha256": "9ae9dcb9d09111c9facc68510331c5aba4aed9b1b057314ff1fc0e166ad3993a"
+        },
+        "references/synthesizer-prompt.md": {
+          "sha256": "733a3e9cf897b1aca56aaddeae01a3832e4bfed024c2f602db2d1bf807d7a73b"
+        },
+        "references/sources/code-archaeology.md": {
+          "sha256": "8c14aa382f0de40829b2668d43e3f54814480bb93a486c9282ada4003f6b9dbd"
+        },
+        "references/sources/databricks.md": {
+          "sha256": "236ede7aab6454662a992db088a5393537a5233a4c26719c93188f9e174488f6"
+        },
+        "references/sources/datadog.md": {
+          "sha256": "ebe9c07bac28e47757ee7f16fb93b0c01d427a08c501957d047f395a2f37b7e7"
+        },
+        "references/sources/incident-postmortem.md": {
+          "sha256": "a899470f05f86029630a13a2696491cc708ca7b56a6e822a69ff6e954d6ff8cf"
+        },
+        "references/sources/linear.md": {
+          "sha256": "01304e7f1badfcfb78babbb0edcadeb3cc8dd3f713793420cdff24ba190f907c"
+        },
+        "references/sources/notion.md": {
+          "sha256": "3bcfa695c49dfad4ac036d5d7181c12585f55ac04f1936198d16ab75a2788997"
+        },
+        "references/sources/sentry.md": {
+          "sha256": "6f292bc4fb1548e956f95e1900b9481abf5134254419f1cd9edec95428c82d73"
+        },
+        "references/sources/slack.md": {
+          "sha256": "58fee61d024b3700b407e7acbed367944720ff05adfddb6954d36c88368f3ba7"
+        }
+      }
+    },
+    {
+      "name": "wizard",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\wizard\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL.md": {
+          "sha256": "bdf31d48211ea559878f95a4f344aeabf8d85897488ba564382bab0b000daac1"
+        },
+        "template.sh": {
+          "sha256": "33cbe9dfb1d0e9185b60248a52aabed14bc64785a00cac695e302e739dd6c153"
+        },
+        "agents/openai.yaml": {
+          "sha256": "98f44d682d58e262f160dc59a8befc365e0aa65820dd0261864af26aa8e59d83"
+        }
+      }
+    },
+    {
+      "name": "writing-for-agents",
+      "path": "C:\\Users\\Justin\\.codex\\skills\\writing-for-agents\\SKILL.md",
+      "ownership": "regular package in verified Windows user skill root",
+      "publisher": "not re-attributed in this scope; personal installation location verified",
+      "files": {
+        "SKILL-MECHANICS.md": {
+          "sha256": "c768e6307c7c10728c401c213f2c4ba71c542127eeb7ad2956aabd15a0fa0059"
+        },
+        "SKILL.md": {
+          "sha256": "551adca942227b44192edba88acd4e8db911f0121ce58ad16944ccf6a896a74a"
+        },
+        "agents/openai.yaml": {
+          "sha256": "eacb24b2a618cfb81dacb0416f4fdd75ddf3a8060f8ddb99aae1b1e301907e4b"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Global capability selector"
+  short_description: "Toggle reviewed global skills and local plugins"

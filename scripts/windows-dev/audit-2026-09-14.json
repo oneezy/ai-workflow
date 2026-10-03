@@ -1,0 +1,192 @@
+{
+  "TimeUtc": "2026-09-15T01:05:32.1700503Z",
+  "PowerShell": "7.6.6",
+  "Architecture": "X64",
+  "Commands": [
+    {
+      "Name": "vp",
+      "Paths": []
+    },
+    {
+      "Name": "node",
+      "Paths": [
+        "C:\\nvm4w\\nodejs\\node.exe",
+        "C:\\Users\\Justin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+      ]
+    },
+    {
+      "Name": "npm",
+      "Paths": [
+        "C:\\nvm4w\\nodejs\\npm.ps1",
+        "C:\\nvm4w\\nodejs\\npm.cmd",
+        "C:\\nvm4w\\nodejs\\npm",
+        "C:\\Users\\Justin\\AppData\\Roaming\\npm\\npm.ps1",
+        "C:\\Users\\Justin\\AppData\\Roaming\\npm\\npm.cmd",
+        "C:\\Users\\Justin\\AppData\\Roaming\\npm\\npm"
+      ]
+    },
+    {
+      "Name": "pnpm",
+      "Paths": [
+        "C:\\nvm4w\\nodejs\\pnpm.ps1",
+        "C:\\nvm4w\\nodejs\\pnpm.cmd",
+        "C:\\nvm4w\\nodejs\\pnpm",
+        "C:\\Users\\Justin\\AppData\\Roaming\\npm\\pnpm.ps1",
+        "C:\\Users\\Justin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd"
+      ]
+    },
+    {
+      "Name": "nvm",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\nvm\\nvm.exe"
+      ]
+    },
+    {
+      "Name": "codex",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Roaming\\npm\\codex.ps1",
+        "C:\\Users\\Justin\\AppData\\Roaming\\npm\\codex.cmd",
+        "C:\\Users\\Justin\\AppData\\Roaming\\npm\\codex",
+        "C:\\Users\\Justin\\AppData\\Local\\OpenAI\\Codex\\bin\\bffc5354119c8421\\codex.exe"
+      ]
+    },
+    {
+      "Name": "git",
+      "Paths": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "C:\\Users\\Justin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.exe"
+      ]
+    },
+    {
+      "Name": "gh",
+      "Paths": [
+        "C:\\Program Files\\GitHub CLI\\gh.exe"
+      ]
+    },
+    {
+      "Name": "copilot",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WinGet\\Links\\copilot.exe"
+      ]
+    },
+    {
+      "Name": "code",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd",
+        "C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code",
+        "c:\\Users\\Justin\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\code.cmd",
+        "c:\\Users\\Justin\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin\\code"
+      ]
+    },
+    {
+      "Name": "pwsh",
+      "Paths": [
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+        "C:\\Users\\Justin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\pwsh.exe",
+        "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps\\pwsh.exe"
+      ]
+    },
+    {
+      "Name": "bash",
+      "Paths": [
+        "C:\\WINDOWS\\system32\\bash.exe",
+        "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps\\bash.exe"
+      ]
+    },
+    {
+      "Name": "nu",
+      "Paths": []
+    },
+    {
+      "Name": "oh-my-posh",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\Programs\\oh-my-posh\\bin\\oh-my-posh.exe"
+      ]
+    },
+    {
+      "Name": "zoxide",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WinGet\\Links\\zoxide.exe"
+      ]
+    },
+    {
+      "Name": "rg",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WinGet\\Links\\rg.exe",
+        "C:\\Users\\Justin\\AppData\\Local\\OpenAI\\Codex\\bin\\116cfc4fd47f015a\\rg.exe"
+      ]
+    },
+    {
+      "Name": "python",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "C:\\Users\\Justin\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe",
+        "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+      ]
+    },
+    {
+      "Name": "uv",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\hermes\\bin\\uv.exe"
+      ]
+    },
+    {
+      "Name": "deno",
+      "Paths": [
+        "C:\\Users\\Justin\\.deno\\bin\\deno.exe"
+      ]
+    },
+    {
+      "Name": "docker",
+      "Paths": [
+        "C:\\Users\\Justin\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe",
+        "C:\\Users\\Justin\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker"
+      ]
+    }
+  ],
+  "Protected": {
+    "UserPath": "C:\\Users\\Justin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Justin\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Justin\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Justin\\AppData\\Local\\hermes\\bin;C:\\Users\\Justin\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts;C:\\Users\\Justin\\AppData\\Local\\Programs\\corepack\\shims;C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin;c:\\Users\\Justin\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Users\\Justin\\scoop\\shims;C:\\Users\\Justin\\AppData\\Local\\pnpm;C:\\Users\\Justin\\bin;C:\\Users\\Justin\\AppData\\Local\\Programs\\oh-my-posh\\bin\\;C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WinGet\\Links;C:\\Users\\Justin\\.deno\\bin;C:\\Users\\Justin\\AppData\\Local\\Muse Hub\\lib;C:\\Users\\Justin\\AppData\\Roaming\\npm;C:\\Users\\Justin\\AppData\\Local\\Programs\\Zed\\bin;C:\\Users\\Justin\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin;",
+    "MachinePath": "C:\\Users\\Justin\\AppData\\Local\\Programs\\corepack\\shims;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\D2\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Users\\Justin\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\Tailscale\\;C:\\Program Files\\PowerShell\\7\\",
+    "UserVpHome": null,
+    "MachineVpHome": null,
+    "Files": [
+      {
+        "Path": "C:\\Users\\Justin\\.npmrc",
+        "Hash": "81e77a99ee2c67b08baef5459ce9e9fdb0979ede3b5a2efe0546b1f2fbc4f12d"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\.bashrc",
+        "Hash": "f7560b3adb836c031961c5ed7df8fdfbf19538a0da65432236ad6c868b051ab3"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\.bash_profile",
+        "Hash": "25734d8bc118eeaa63d92308afe4e86866cb49caaa7785e97ac8be95a4eab6dc"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\Documents\\PowerShell\\profile.ps1",
+        "Hash": null
+      },
+      {
+        "Path": "C:\\Users\\Justin\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1",
+        "Hash": "e249c4f838b72fcaea0742c1922b6542567b42afcf11a9462d7bbc0f163e1ade"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\Documents\\PowerShell\\CTTcustom.ps1",
+        "Hash": null
+      },
+      {
+        "Path": "C:\\Users\\Justin\\AppData\\Roaming\\Code\\User\\settings.json",
+        "Hash": "8269fde31456965f923203e2d6db0bff1b579e5626919ecf4503abee824cad78"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\AppData\\Roaming\\Code\\User\\profiles\\-4a0d1427\\settings.json",
+        "Hash": "874a3331d425334e80212a26eab1620bc6b0850d2c4bad9333939a8652183193"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\.codex\\config.toml",
+        "Hash": "8983ac03c999327f432837c21516d16b98272cad5b6c9c5fcc8a78be64665fdd"
+      }
+    ]
+  },
+  "Note": "No executable version probes, downloads, profiles, or package-manager shims run during audit."
+}

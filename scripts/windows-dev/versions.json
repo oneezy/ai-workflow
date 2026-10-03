@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "architecture": "x64",
+  "vp": "0.3.2",
+  "node": "24.21.0",
+  "pnpm": "12.4.1",
+  "npm": "11.19.0",
+  "codex": "0.154.0",
+  "policy": "Exact reviewed stable releases. No latest resolution during install/update. Vite+ upgrade requires reviewing its self-setup source and bootstrap version guard.",
+  "artifacts": [
+    {
+      "Name": "vp",
+      "Url": "https://registry.npmjs.org/@voidzero-dev/vite-plus-cli-win32-x64-msvc/-/vite-plus-cli-win32-x64-msvc-0.3.2.tgz",
+      "Integrity": "sha512-PAASu1VH/JG9o6xMisbSGoxk+phXyo89pTfdApP7p29gLyOfx/txMua6L/SdzbFaWKFmhJ/OCYJSuVnQ06NEbw=="
+    },
+    {
+      "Name": "codex",
+      "Url": "https://github.com/openai/codex/releases/download/rust-v0.154.0/codex-package-x86_64-pc-windows-msvc.tar.gz",
+      "Integrity": "sha256:94cc5b3632769504c809f6c0364b693c0dfddc5c30c8361095d2263a07ac45a4"
+    }
+  ]
+}

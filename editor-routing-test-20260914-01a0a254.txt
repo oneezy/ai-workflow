@@ -1,0 +1,4 @@
+Harmless editor-routing test for Justin.
+Created 2026-09-14 in /home/justin/dev/ai-workflow.
+Use the desktop app Open in VS Code button to open this file.
+No configuration or source changes are part of this test.

@@ -1,0 +1,107 @@
+{
+  "Schema": 1,
+  "Root": "V:\\dev-pilot\\.toolchain",
+  "Release": "V:\\dev-pilot\\.toolchain\\vp-0.3.2_node-24.21.0_pnpm-12.4.1_npm-11.19.0_codex-0.154.0",
+  "ManifestHash": "17cbddcffc0ea1bc87a46d3eb4b9dae9b612af252d243876af80358cf71610e2",
+  "ScriptHash": "cbd53892d49e42f13d7c9e4a14e2f404c788d2f7106fe972ed232553961678f3",
+  "Versions": {
+    "schema": 1,
+    "architecture": "x64",
+    "vp": "0.3.2",
+    "node": "24.21.0",
+    "pnpm": "12.4.1",
+    "npm": "11.19.0",
+    "codex": "0.154.0",
+    "policy": "Exact reviewed stable releases. No latest resolution during install/update. Vite+ upgrade requires reviewing its self-setup source and bootstrap version guard.",
+    "artifacts": [
+      {
+        "Name": "vp",
+        "Url": "https://registry.npmjs.org/@voidzero-dev/vite-plus-cli-win32-x64-msvc/-/vite-plus-cli-win32-x64-msvc-0.3.2.tgz",
+        "Integrity": "sha512-PAASu1VH/JG9o6xMisbSGoxk+phXyo89pTfdApP7p29gLyOfx/txMua6L/SdzbFaWKFmhJ/OCYJSuVnQ06NEbw=="
+      },
+      {
+        "Name": "codex",
+        "Url": "https://github.com/openai/codex/releases/download/rust-v0.154.0/codex-package-x86_64-pc-windows-msvc.tar.gz",
+        "Integrity": "sha256:94cc5b3632769504c809f6c0364b693c0dfddc5c30c8361095d2263a07ac45a4"
+      }
+    ]
+  },
+  "Before": {
+    "UserPath": "C:\\Users\\Justin\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\;C:\\Users\\Justin\\AppData\\Local\\Programs\\Python\\Python312\\;C:\\Users\\Justin\\AppData\\Local\\Programs\\Python\\Launcher\\;C:\\Users\\Justin\\AppData\\Local\\hermes\\bin;C:\\Users\\Justin\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts;C:\\Users\\Justin\\AppData\\Local\\Programs\\corepack\\shims;C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Justin\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin;c:\\Users\\Justin\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Users\\Justin\\scoop\\shims;C:\\Users\\Justin\\AppData\\Local\\pnpm;C:\\Users\\Justin\\bin;C:\\Users\\Justin\\AppData\\Local\\Programs\\oh-my-posh\\bin\\;C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WinGet\\Links;C:\\Users\\Justin\\.deno\\bin;C:\\Users\\Justin\\AppData\\Local\\Muse Hub\\lib;C:\\Users\\Justin\\AppData\\Roaming\\npm;C:\\Users\\Justin\\AppData\\Local\\Programs\\Zed\\bin;C:\\Users\\Justin\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin;",
+    "MachinePath": "C:\\Users\\Justin\\AppData\\Local\\Programs\\corepack\\shims;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.1\\libnvvp;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\dotnet\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Graphviz\\bin;C:\\Program Files\\D2\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.1.0\\;C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Users\\Justin\\AppData\\Local\\nvm;C:\\nvm4w\\nodejs;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\Tailscale\\;C:\\Program Files\\PowerShell\\7\\",
+    "UserVpHome": null,
+    "MachineVpHome": null,
+    "Files": [
+      {
+        "Path": "C:\\Users\\Justin\\.npmrc",
+        "Hash": "81e77a99ee2c67b08baef5459ce9e9fdb0979ede3b5a2efe0546b1f2fbc4f12d"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\.bashrc",
+        "Hash": "f7560b3adb836c031961c5ed7df8fdfbf19538a0da65432236ad6c868b051ab3"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\.bash_profile",
+        "Hash": "25734d8bc118eeaa63d92308afe4e86866cb49caaa7785e97ac8be95a4eab6dc"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\Documents\\PowerShell\\profile.ps1",
+        "Hash": null
+      },
+      {
+        "Path": "C:\\Users\\Justin\\Documents\\PowerShell\\Microsoft.PowerShell_profile.ps1",
+        "Hash": "e249c4f838b72fcaea0742c1922b6542567b42afcf11a9462d7bbc0f163e1ade"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\Documents\\PowerShell\\CTTcustom.ps1",
+        "Hash": null
+      },
+      {
+        "Path": "C:\\Users\\Justin\\AppData\\Roaming\\Code\\User\\settings.json",
+        "Hash": "8269fde31456965f923203e2d6db0bff1b579e5626919ecf4503abee824cad78"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\AppData\\Roaming\\Code\\User\\profiles\\-4a0d1427\\settings.json",
+        "Hash": "874a3331d425334e80212a26eab1620bc6b0850d2c4bad9333939a8652183193"
+      },
+      {
+        "Path": "C:\\Users\\Justin\\.codex\\config.toml",
+        "Hash": "8983ac03c999327f432837c21516d16b98272cad5b6c9c5fcc8a78be64665fdd"
+      }
+    ]
+  },
+  "Artifacts": [
+    {
+      "Name": "vp",
+      "Url": "https://registry.npmjs.org/@voidzero-dev/vite-plus-cli-win32-x64-msvc/-/vite-plus-cli-win32-x64-msvc-0.3.2.tgz",
+      "Integrity": "sha512-PAASu1VH/JG9o6xMisbSGoxk+phXyo89pTfdApP7p29gLyOfx/txMua6L/SdzbFaWKFmhJ/OCYJSuVnQ06NEbw=="
+    },
+    {
+      "Name": "codex",
+      "Url": "https://github.com/openai/codex/releases/download/rust-v0.154.0/codex-package-x86_64-pc-windows-msvc.tar.gz",
+      "Integrity": "sha256:94cc5b3632769504c809f6c0364b693c0dfddc5c30c8361095d2263a07ac45a4"
+    }
+  ],
+  "Changes": [
+    "Create only V:\\dev-pilot\\.toolchain\\vp-0.3.2_node-24.21.0_pnpm-12.4.1_npm-11.19.0_codex-0.154.0 and its downloaded packages, runtime data, logs, and receipt.",
+    "Vite+ manages the recorded Node/npm/pnpm versions in a private VP_HOME.",
+    "No persisted PATH, shell/profile, npmrc, Codex config, model, auth, or VS Code changes.",
+    "No NVM removal, old-package removal, repository copy, project upgrade, or scheduled update.",
+    "Enter starts a chosen child shell with a deduplicated process PATH. Closing it restores the old environment."
+  ],
+  "InteractiveShell": {
+    "Choice": "PowerShell 7",
+    "Executable": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "Prompt": "Preserve existing Oh My Posh customization",
+    "Acceptance": "Fresh PowerShell sessions must resolve Git and retained CLIs to the intended native Windows executables. Include the existing profile.",
+    "Authorization": "Shell selection only. Installation, NVM retirement, PATH, and settings changes remain unapproved."
+  },
+  "PilotWorkspace": {
+    "Directory": "V:\\dev-pilot",
+    "Created": true,
+    "ProjectDirectory": "V:\\dev-pilot\\app",
+    "Authorization": "Creation of the empty pilot parent only. Tool installation, app scaffolding, dependencies, NVM removal, and PATH/settings edits remain pending approval.",
+    "BlockingIsolatedPilot": "Approval of the exact installation plan",
+    "BlockingNvmRemoval": "Successful replacement/pilot, retained-global CLI decisions, recovery, and reviewed uninstall/PATH plan"
+  }
+}

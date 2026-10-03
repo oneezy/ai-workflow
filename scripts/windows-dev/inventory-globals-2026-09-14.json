@@ -1,0 +1,556 @@
+{
+  "TimeUtc": "2026-09-15T00:58:39.4358564Z",
+  "GlobalPackages": [
+    {
+      "Owner": "NVM v22.17.0",
+      "Prefix": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v22.17.0",
+      "Exists": true,
+      "Packages": [
+        {
+          "Name": "corepack",
+          "Version": "0.33.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v22.17.0\\node_modules\\corepack",
+          "Bin": {
+            "corepack": "./dist/corepack.js",
+            "pnpm": "./dist/pnpm.js",
+            "pnpx": "./dist/pnpx.js",
+            "yarn": "./dist/yarn.js",
+            "yarnpkg": "./dist/yarnpkg.js"
+          }
+        },
+        {
+          "Name": "npm",
+          "Version": "10.9.2",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v22.17.0\\node_modules\\npm",
+          "Bin": {
+            "npm": "bin/npm-cli.js",
+            "npx": "bin/npx-cli.js"
+          }
+        }
+      ],
+      "Shims": [
+        "corepack",
+        "corepack.cmd",
+        "node.exe",
+        "npm",
+        "npm.cmd",
+        "npm.ps1",
+        "npx",
+        "npx.cmd",
+        "npx.ps1"
+      ]
+    },
+    {
+      "Owner": "NVM v23.10.0",
+      "Prefix": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v23.10.0",
+      "Exists": true,
+      "Packages": [
+        {
+          "Name": "corepack",
+          "Version": "0.32.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v23.10.0\\node_modules\\corepack",
+          "Bin": {
+            "corepack": "./dist/corepack.js",
+            "pnpm": "./dist/pnpm.js",
+            "pnpx": "./dist/pnpx.js",
+            "yarn": "./dist/yarn.js",
+            "yarnpkg": "./dist/yarnpkg.js"
+          }
+        },
+        {
+          "Name": "npm",
+          "Version": "10.9.2",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v23.10.0\\node_modules\\npm",
+          "Bin": {
+            "npm": "bin/npm-cli.js",
+            "npx": "bin/npx-cli.js"
+          }
+        },
+        {
+          "Name": "vnow",
+          "Version": "0.33.3",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v23.10.0\\node_modules\\vnow",
+          "Bin": {
+            "vnow": "./vnow.js"
+          }
+        }
+      ],
+      "Shims": [
+        "corepack",
+        "corepack.cmd",
+        "LICENSE",
+        "node.exe",
+        "npm",
+        "npm.cmd",
+        "npm.ps1",
+        "npx",
+        "npx.cmd",
+        "npx.ps1",
+        "vnow",
+        "vnow.cmd",
+        "vnow.ps1"
+      ]
+    },
+    {
+      "Owner": "NVM v24.4.0",
+      "Prefix": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v24.4.0",
+      "Exists": true,
+      "Packages": [
+        {
+          "Name": "@google/gemini-cli",
+          "Version": "0.1.15",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v24.4.0\\node_modules\\@google\\gemini-cli",
+          "Bin": {
+            "gemini": "dist/index.js"
+          }
+        },
+        {
+          "Name": "corepack",
+          "Version": "0.34.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v24.4.0\\node_modules\\corepack",
+          "Bin": {
+            "corepack": "./dist/corepack.js",
+            "pnpm": "./dist/pnpm.js",
+            "pnpx": "./dist/pnpx.js",
+            "yarn": "./dist/yarn.js",
+            "yarnpkg": "./dist/yarnpkg.js"
+          }
+        },
+        {
+          "Name": "npm",
+          "Version": "11.4.2",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v24.4.0\\node_modules\\npm",
+          "Bin": {
+            "npm": "bin/npm-cli.js",
+            "npx": "bin/npx-cli.js"
+          }
+        },
+        {
+          "Name": "pnpm",
+          "Version": "10.16.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v24.4.0\\node_modules\\pnpm",
+          "Bin": {
+            "pnpm": "bin/pnpm.cjs",
+            "pnpx": "bin/pnpx.cjs"
+          }
+        },
+        {
+          "Name": "vercel",
+          "Version": "48.0.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v24.4.0\\node_modules\\vercel",
+          "Bin": {
+            "vc": "./dist/vc.js",
+            "vercel": "./dist/vc.js"
+          }
+        },
+        {
+          "Name": "vnow",
+          "Version": "0.38.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Local\\nvm\\v24.4.0\\node_modules\\vnow",
+          "Bin": {
+            "vnow": "./vnow.js"
+          }
+        }
+      ],
+      "Shims": [
+        "corepack",
+        "corepack.cmd",
+        "corepack.ps1",
+        "gemini",
+        "gemini.cmd",
+        "gemini.ps1",
+        "LICENSE",
+        "node.exe",
+        "npm",
+        "npm.cmd",
+        "npm.ps1",
+        "npx",
+        "npx.cmd",
+        "npx.ps1",
+        "pnpm",
+        "pnpm.cmd",
+        "pnpm.ps1",
+        "pnpx",
+        "pnpx.cmd",
+        "pnpx.ps1",
+        "vc",
+        "vc.cmd",
+        "vc.ps1",
+        "vercel",
+        "vercel.cmd",
+        "vercel.ps1",
+        "vnow",
+        "vnow.cmd",
+        "vnow.ps1",
+        "yarn",
+        "yarn.cmd",
+        "yarn.ps1",
+        "yarnpkg",
+        "yarnpkg.cmd",
+        "yarnpkg.ps1"
+      ]
+    },
+    {
+      "Owner": "Roaming npm",
+      "Prefix": "C:\\Users\\Justin\\AppData\\Roaming\\npm",
+      "Exists": true,
+      "Packages": [
+        {
+          "Name": "@google/clasp",
+          "Version": "3.0.6-alpha",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\@google\\clasp",
+          "Bin": {
+            "clasp": "build/src/index.js"
+          }
+        },
+        {
+          "Name": "@google/gemini-cli",
+          "Version": "0.1.9",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\@google\\gemini-cli",
+          "Bin": {
+            "gemini": "dist/index.js"
+          }
+        },
+        {
+          "Name": "@openai/codex",
+          "Version": "0.1.2505172129",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\@openai\\codex",
+          "Bin": {
+            "codex": "bin/codex.js"
+          }
+        },
+        {
+          "Name": "degit",
+          "Version": "2.8.4",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\degit",
+          "Bin": {
+            "degit": "degit"
+          }
+        },
+        {
+          "Name": "madge",
+          "Version": "8.0.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\madge",
+          "Bin": {
+            "madge": "./bin/cli.js"
+          }
+        },
+        {
+          "Name": "npm",
+          "Version": "11.4.2",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\npm",
+          "Bin": {
+            "npm": "bin/npm-cli.js",
+            "npx": "bin/npx-cli.js"
+          }
+        },
+        {
+          "Name": "plop",
+          "Version": "4.0.1",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\plop",
+          "Bin": "./bin/plop.js"
+        },
+        {
+          "Name": "pnpm",
+          "Version": "10.0.0",
+          "Path": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\node_modules\\pnpm",
+          "Bin": {
+            "pnpm": "bin/pnpm.cjs",
+            "pnpx": "bin/pnpx.cjs"
+          }
+        }
+      ],
+      "Shims": [
+        "clasp",
+        "clasp.cmd",
+        "clasp.ps1",
+        "codex",
+        "codex.cmd",
+        "codex.ps1",
+        "degit",
+        "degit.cmd",
+        "degit.ps1",
+        "gemini",
+        "gemini.cmd",
+        "gemini.ps1",
+        "madge",
+        "madge.cmd",
+        "madge.ps1",
+        "npm",
+        "npm.cmd",
+        "npm.ps1",
+        "npx",
+        "npx.cmd",
+        "npx.ps1",
+        "plop",
+        "plop.cmd",
+        "plop.ps1",
+        "pnpm.ps1",
+        "pnpx",
+        "pnpx.cmd",
+        "pnpx.ps1"
+      ]
+    },
+    {
+      "Owner": "Standalone Node candidate",
+      "Prefix": "C:\\Program Files\\nodejs",
+      "Exists": false,
+      "Packages": [],
+      "Shims": []
+    },
+    {
+      "Owner": "Standalone Node x86 candidate",
+      "Prefix": "C:\\Program Files (x86)\\nodejs",
+      "Exists": false,
+      "Packages": [],
+      "Shims": []
+    }
+  ],
+  "PnpmGlobalManifests": [
+    {
+      "File": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\global\\5\\package.json",
+      "Dependencies": {
+        "turbo": "^2.4.4",
+        "vercel": "^48.0.0"
+      }
+    }
+  ],
+  "PnpmShims": [
+    "pnpx",
+    "pnpx.CMD",
+    "turbo",
+    "turbo.CMD",
+    "turbo.ps1",
+    "vc",
+    "vc.CMD",
+    "vc.ps1",
+    "vercel",
+    "vercel.CMD",
+    "vercel.ps1"
+  ],
+  "CorepackDirectories": [
+    {
+      "Path": "C:\\Users\\Justin\\AppData\\Local\\Programs\\corepack\\shims",
+      "Exists": false,
+      "Names": []
+    },
+    {
+      "Path": "C:\\Users\\Justin\\scoop\\shims",
+      "Exists": true,
+      "Names": [
+        "7z.exe",
+        "7z.shim",
+        "7zfm.exe",
+        "7zfm.shim",
+        "7zg.exe",
+        "7zg.shim",
+        "scoop",
+        "scoop.cmd",
+        "scoop.ps1"
+      ]
+    }
+  ],
+  "NvmEnvironment": [
+    {
+      "Scope": "User",
+      "NVM_HOME": "C:\\Users\\Justin\\AppData\\Local\\nvm",
+      "NVM_SYMLINK": "C:\\nvm4w\\nodejs"
+    },
+    {
+      "Scope": "Machine",
+      "NVM_HOME": "C:\\Users\\Justin\\AppData\\Local\\nvm",
+      "NVM_SYMLINK": "C:\\nvm4w\\nodejs"
+    }
+  ],
+  "Resolution": [
+    {
+      "Name": "node.exe",
+      "Source": "C:\\nvm4w\\nodejs\\node.exe"
+    },
+    {
+      "Name": "node.exe",
+      "Source": "C:\\Users\\Justin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe"
+    },
+    {
+      "Name": "npm.ps1",
+      "Source": "C:\\nvm4w\\nodejs\\npm.ps1"
+    },
+    {
+      "Name": "npm.cmd",
+      "Source": "C:\\nvm4w\\nodejs\\npm.cmd"
+    },
+    {
+      "Name": "npm",
+      "Source": "C:\\nvm4w\\nodejs\\npm"
+    },
+    {
+      "Name": "npm.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\npm.ps1"
+    },
+    {
+      "Name": "npm.cmd",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\npm.cmd"
+    },
+    {
+      "Name": "npm",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\npm"
+    },
+    {
+      "Name": "pnpm.ps1",
+      "Source": "C:\\nvm4w\\nodejs\\pnpm.ps1"
+    },
+    {
+      "Name": "pnpm.cmd",
+      "Source": "C:\\nvm4w\\nodejs\\pnpm.cmd"
+    },
+    {
+      "Name": "pnpm",
+      "Source": "C:\\nvm4w\\nodejs\\pnpm"
+    },
+    {
+      "Name": "pnpm.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\pnpm.ps1"
+    },
+    {
+      "Name": "pnpm.cmd",
+      "Source": "C:\\Users\\Justin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.cmd"
+    },
+    {
+      "Name": "nvm.exe",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\nvm\\nvm.exe"
+    },
+    {
+      "Name": "corepack.ps1",
+      "Source": "C:\\nvm4w\\nodejs\\corepack.ps1"
+    },
+    {
+      "Name": "corepack.cmd",
+      "Source": "C:\\nvm4w\\nodejs\\corepack.cmd"
+    },
+    {
+      "Name": "corepack",
+      "Source": "C:\\nvm4w\\nodejs\\corepack"
+    },
+    {
+      "Name": "codex.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\codex.ps1"
+    },
+    {
+      "Name": "codex.cmd",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\codex.cmd"
+    },
+    {
+      "Name": "codex",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\codex"
+    },
+    {
+      "Name": "codex.exe",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\OpenAI\\Codex\\bin\\bffc5354119c8421\\codex.exe"
+    },
+    {
+      "Name": "copilot.exe",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\Microsoft\\WinGet\\Links\\copilot.exe"
+    },
+    {
+      "Name": "gh.exe",
+      "Source": "C:\\Program Files\\GitHub CLI\\gh.exe"
+    },
+    {
+      "Name": "vercel.ps1",
+      "Source": "C:\\nvm4w\\nodejs\\vercel.ps1"
+    },
+    {
+      "Name": "vercel.cmd",
+      "Source": "C:\\nvm4w\\nodejs\\vercel.cmd"
+    },
+    {
+      "Name": "vercel",
+      "Source": "C:\\nvm4w\\nodejs\\vercel"
+    },
+    {
+      "Name": "vercel.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\vercel.ps1"
+    },
+    {
+      "Name": "vercel.CMD",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\vercel.CMD"
+    },
+    {
+      "Name": "vercel",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\vercel"
+    },
+    {
+      "Name": "vc.ps1",
+      "Source": "C:\\nvm4w\\nodejs\\vc.ps1"
+    },
+    {
+      "Name": "vc.cmd",
+      "Source": "C:\\nvm4w\\nodejs\\vc.cmd"
+    },
+    {
+      "Name": "vc",
+      "Source": "C:\\nvm4w\\nodejs\\vc"
+    },
+    {
+      "Name": "vc.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\vc.ps1"
+    },
+    {
+      "Name": "vc.CMD",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\vc.CMD"
+    },
+    {
+      "Name": "vc",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\vc"
+    },
+    {
+      "Name": "clasp.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\clasp.ps1"
+    },
+    {
+      "Name": "clasp.cmd",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\clasp.cmd"
+    },
+    {
+      "Name": "clasp",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\clasp"
+    },
+    {
+      "Name": "gemini.ps1",
+      "Source": "C:\\nvm4w\\nodejs\\gemini.ps1"
+    },
+    {
+      "Name": "gemini.cmd",
+      "Source": "C:\\nvm4w\\nodejs\\gemini.cmd"
+    },
+    {
+      "Name": "gemini",
+      "Source": "C:\\nvm4w\\nodejs\\gemini"
+    },
+    {
+      "Name": "gemini.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\gemini.ps1"
+    },
+    {
+      "Name": "gemini.cmd",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\gemini.cmd"
+    },
+    {
+      "Name": "gemini",
+      "Source": "C:\\Users\\Justin\\AppData\\Roaming\\npm\\gemini"
+    },
+    {
+      "Name": "turbo.ps1",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\turbo.ps1"
+    },
+    {
+      "Name": "turbo.CMD",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\turbo.CMD"
+    },
+    {
+      "Name": "turbo",
+      "Source": "C:\\Users\\Justin\\AppData\\Local\\pnpm\\turbo"
+    }
+  ],
+  "Note": "Presence is not proof of use. No shell history, credentials, sessions, or caches were exported."
+}

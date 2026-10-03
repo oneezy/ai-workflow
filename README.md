@@ -2,6 +2,16 @@
 
 > A checkpoint-based lab for building an AI-driven software workflow where humans provide direction and approval while agents plan, implement, test, review, open pull requests, and prepare deployments.
 
+## Current experiment, September 12, 2026
+
+AI Workflow is Justin's experimentation and testing ground. Workflow, gbrain, personal-memory, and cross-machine topology research belongs in this project. The milestones below remain a staged lab plan; their commands and version snapshots do not establish what is installed today.
+
+Retain the Windows-native Codex app for voice, browser, and native desktop work. Evaluate Ubuntu-native Codex CLI in the existing Linux checkout. Justin chose VS Code connected to Ubuntu WSL as the interface for the next manual experiment; its integrated Ubuntu terminal can run the CLI.
+
+- Read the [architecture and memory baseline](docs/cross-machine-workflow.md) when planning execution boundaries, source ownership, selective retrieval, or a memory pilot. It links the preserved September 12 research and unresolved diagnostic handoff. gbrain is the leading pilot candidate; backend adoption remains open.
+- Follow the [manual Matt Pocock skill walkthrough](docs/manual-skill-setup.md) for the next experiment. Justin performs the setup himself after reviewing the proposed changes. The later agent-managed installation prompt is an alternative workflow.
+- Use `tools.csv` for catalog changes. [TOOLS.md](TOOLS.md) and [STACK.md](STACK.md) are derived views. Their August entries, including Desktop WSL mode, are historical catalog records and have not been refreshed by this documentation update.
+
 ## Target outcome
 
 By the end of this lab, you will have a working pipeline that can:
@@ -222,7 +232,7 @@ Keep these on Windows:
 - Photoshop and design-source files.
 - Hermes temporarily.
 
-The Codex desktop app remains a Windows application. For this Linux-first lab, configure it as:
+The current experiment keeps the Codex desktop agent Windows-native and evaluates a separate Ubuntu CLI through VS Code. No desktop settings change is required by this plan. The earlier lab proposed the following Desktop-in-WSL arrangement, retained here as a future alternative requiring its own capability check:
 
 ```text
 Agent environment      → Windows Subsystem for Linux
@@ -231,7 +241,7 @@ WSL default distro     → Ubuntu-26.04
 Repository location    → ~/dev/agent-workflow
 ```
 
-The agent-environment setting controls where Codex executes its commands. The terminal-shell setting controls only the visible integrated terminal. Keep both on WSL for this repository. The default distro is configured by Windows WSL, not by Codex. Windows executables can still be invoked through WSL interoperability when needed; use a separate Windows-native Codex session for work that fundamentally depends on Windows system tooling.
+The agent-environment setting and terminal-shell setting control separate execution contexts. Selecting a WSL terminal alone does not relocate the desktop agent. The historical `~/dev/agent-workflow` example is not this checkout; use the existing `/home/justin/dev/ai-workflow` folder. Follow the [dated topology evidence and limits](docs/cross-machine-workflow.md#evidence-and-ownership) before choosing another arrangement.
 
 Enable Docker Desktop integration for Ubuntu 26.04:
 
@@ -363,10 +373,10 @@ Use one agent prompt to create the complete framework-free project instead of bu
 
 ## Tool choice — supervised coordinator and portable execution layer
 
-Codex Desktop is the initial supervised coordinator for this lab. The app remains installed on Windows, while its agent environment and integrated terminal run inside Ubuntu 26.04 WSL. Codex CLI is installed separately inside WSL and remains the portable execution interface for terminal sessions, automation, Docker, Sandcastle, and the future VPS.
+Codex Desktop remains the Windows-native voice and desktop coordinator. The next experiment evaluates Ubuntu Codex CLI through VS Code connected to WSL for coding in existing Linux repositories. CLI installation, effective configuration, and successful task execution are separate acceptance checks; this plan does not claim they have passed. Docker, Sandcastle, and VPS execution remain later lab stages.
 
-1. **Codex Desktop in WSL mode — selected as the supervised interactive coordinator**
-2. **Codex CLI inside WSL — selected as the portable and headless execution layer**
+1. **Windows-native Codex Desktop — retained for voice, browser, and desktop work**
+2. **Codex CLI inside WSL — next coding experiment through VS Code's Ubuntu terminal**
 3. Claude Code — optional specialist for planning, architecture, implementation, and review
 4. GitHub Copilot CLI — optional GitHub-native and VS Code-adjacent worker
 5. Pi — optional competing interactive harness evaluated after the first clean Codex PR
@@ -374,7 +384,7 @@ Codex Desktop is the initial supervised coordinator for this lab. The app remain
 
 Codex Desktop, Codex CLI, Pi, and Sandcastle are not interchangeable. Desktop provides the human-facing control surface; the CLI provides portable execution; Pi is an optional alternate harness; Sandcastle adds bounded branch, worktree, sandbox, retry, and cleanup orchestration. Shared behavior belongs in `AGENTS.md`, skills, tests, scripts, and repository policy so the worker can change later.
 
-Open the repository in Codex Desktop with the WSL agent environment, or start Codex CLI from the WSL repository root, and give it this prompt:
+For the current manual experiment, use the [skill walkthrough](docs/manual-skill-setup.md). The bootstrap prompt below belongs to a later implementation milestone after its scope is approved. It is not a prerequisite for using this existing project:
 
 ```text
 You are the bootstrap coordinator for this AI workflow lab.
@@ -567,7 +577,9 @@ Verify that the roles have clear permissions and stop conditions. Merge the PR i
 
 Turn a rough idea into a specification, small issues, and an approved execution plan.
 
-Ask the coordinator to install Matt Pocock's skills for the agents you use:
+For the current experiment, Justin will perform Matt's documented setup manually using the [verified walkthrough](docs/manual-skill-setup.md). It distinguishes the publisher's commands from this lab's Vite+ adaptation, checks existing skill-name collisions, and stops for review before setup writes project instructions. The July/August package pins below belong to the older lab recipe.
+
+For a later agent-managed installation, the original coordinator prompt is:
 
 ```text
 Install the current project-scoped Agent Skills from mattpocock/skills using
@@ -1416,6 +1428,7 @@ flowchart LR
 ```mermaid
 flowchart TB
   subgraph WINDOWS["Windows"]
+    CODEX_DESKTOP["Codex app: voice and desktop"]
     VSCODE["VS Code UI"]
     BROWSER["Browser"]
     DOCKER["Docker Desktop"]
@@ -1441,6 +1454,7 @@ flowchart TB
   end
 
   VSCODE --> REPOS
+  CODEX_DESKTOP -. source-linked handoff .-> WORKER
   DOCKER --> WORKER
   REPOS --> CLIS --> WORKER
   WORKER --> PREVIEW

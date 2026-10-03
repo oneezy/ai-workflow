@@ -13,3 +13,7 @@ npx --yes @oneezy/skills-sync -y --agents claude-code --global --no-projects --n
 Claude Code lists the new skills about a minute later; until then, Read the SKILL.md.
 
 A message that starts with `/<name>` runs that skill, even in a project thread, where it reaches you as plain text rather than a command. If the skill is in your list, invoke it. If it is not, which is always the case for skills marked `disable-model-invocation` (`/wayfinder`, `/grill-me`, `/to-tickets`, `/oneezy-merge` and others), Read `~/.claude/skills/<name>/SKILL.md` and follow it, with the rest of the message as its arguments.
+
+## Issue tracker
+
+Issues live in this repo's GitHub Issues (`oneezy/ai-workflow`), operated through `gh api` REST calls (never `gh issue` or GraphQL, which cloud sessions block). See `docs/agents/issue-tracker.md`. The Software factory v1 map is #6.

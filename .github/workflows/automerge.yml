@@ -1,0 +1,54 @@
+# automerge: a pull request into main merges itself, with no review and no tap (Justin's call, 2026-10-06: "go and
+# do it until it's done ... I wake up to everything merged"). Agents open the pull request and stop; the merge
+# happens here, so no agent ever merges. Same gate as oneezy/skills' land workflow: who can push a branch to this
+# repository. Same workflow as oneezy/tools' automerge.yml, without its build checks (this repo has no code to test).
+#
+#   - Every ready pull request into main from a branch of this repository. A draft waits: keep a pull request in
+#     draft to hold it. Pull requests from forks never merge here.
+#   - A pull request that changes .github/ is never merged here, so this workflow cannot widen itself: workflow
+#     changes take a person's merge. The run stays green and says so.
+#   - Squash merge with PROJECT_PAT when the repo has it, so a task-manager caller sees the merge (a merge made with
+#     GITHUB_TOKEN starts no workflow); GITHUB_TOKEN otherwise.
+#   - This repo has no dev branch, so pull requests target main and land there.
+name: automerge
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: automerge-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  automerge:
+    if: github.event.pull_request.draft == false && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      PR: ${{ github.event.pull_request.number }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Does it change .github
+        id: scope
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          touched=$(gh api "repos/$GITHUB_REPOSITORY/pulls/$PR/files" --paginate --jq '.[].filename' | grep '^\.github/' || true)
+          if [[ -n "$touched" ]]; then
+            echo "::notice title=automerge skipped::#$PR changes .github/ ($(echo $touched)); a person merges workflow changes"
+            echo "merge=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "merge=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Merge into main
+        if: steps.scope.outputs.merge == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_PAT || github.token }}
+        run: gh pr merge "$PR" --squash --match-head-commit "$HEAD_SHA" --repo "$GITHUB_REPOSITORY"
